@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <title>Drag and Drop</title>
+</head>
+<body class="flex flex-col justify-center items-center h-screen" style="background: linear-gradient(90deg, rgba(0,65,255,1) 5%, rgba(188,217,252,1) 100%); background-size: cover; background-repeat: color-repeat;">
+
+  <h1 class="topic text-8xl font-bold text-white mt-32 mb-40">Drag and Drop</h1>
+  <div class="flex flex-wrap justify-center gap-4 flex-1">
+
+    <div class="empty flex items-center justify-center bg-white border-4 border-blue-900 rounded-lg w-32 h-32 md:w-40 md:h-40">
+      <div class="fill bg-center bg-cover" draggable="true" style="background-image: url('https://source.unsplash.com/random/150x150'); height: 95%; width: 95%; border-radius: 8px;"></div>
+    </div>
+    <div class="empty flex items-center justify-center bg-white border-4 border-blue-900 rounded-lg w-32 h-32 md:w-40 md:h-40"></div>
+    <div class="empty flex items-center justify-center bg-white border-4 border-blue-900 rounded-lg w-32 h-32 md:w-40 md:h-40"></div>
+    <div class="empty flex items-center justify-center bg-white border-4 border-blue-900 rounded-lg w-32 h-32 md:w-40 md:h-40"></div>
+    <div class="empty flex items-center justify-center bg-white border-4 border-blue-900 rounded-lg w-32 h-32 md:w-40 md:h-40"></div>
+    <div class="empty flex items-center justify-center bg-white border-4 border-blue-900 rounded-lg w-32 h-32 md:w-40 md:h-40"></div>
+    <div class="empty flex items-center justify-center bg-white border-4 border-blue-900 rounded-lg w-32 h-32 md:w-40 md:h-40"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
